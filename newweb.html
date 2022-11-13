@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+
+     
+
+
+     *{
+        margin: 0;
+        padding: 0;
+     } 
+     .navbar{
+      /*   border: 2px solid darkred;*/
+        display: flex;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+
+
+     }
+     .navlist{
+        width: 70%;
+       /*  background-color: bisque;*/
+        display: flex;
+
+     } 
+     .right-nav{
+   
+        width: 30%;
+       /* background-color: beige;*/
+        text-align: right;
+       margin-top: 14px;
+       margin-right: 75px;
+
+
+     }
+      .right-nav input{
+         font-size: 20px;
+         width: 39%;
+         border-radius: 8px;
+      }
+      .right-nav input:hover{
+         border: 2px solid whitesmoke;
+      }
+      .right-nav button{
+         font-size: 20px;
+         font-family: sans-serif;
+         border-radius: 5px;
+         outline: none;
+         
+         color: #fff;
+         background-color: #007bff;
+         border-color: #007bff;
+}
+.right-nav button:hover{
+   background-color: royalblue;
+}
+
+      }
+
+     .logo{
+        
+        border: 3px solid white;
+      
+
+     }
+     .logo img{
+        width: 20%;
+        border-radius: 10px;
+        margin: 0px 10px;
+        
+     }
+     .navlist li{
+     
+        list-style: none;
+        padding: 15px 5px;
+        margin-left: 30px;
+
+     }
+     .navlist li a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+     }
+     .navlist li a:hover{
+        background-color: white;
+        color: black;
+         font-size: 25px;
+         border-radius: 9px;
+         padding: 3px 3px;
+
+
+     }
+     .back{
+      background:rgba(0, 0, 0, 0.7) url(./images/edu2.jpg);
+      background-size: cover;
+      background-blend-mode: darken;
+     
+      
+     }
+      
+     .firstsection{
+      height: 100vh;
+     }
+     .text-big{
+      font-size: 25px;
+      font-weight: bold;
+     }
+      .text-small{
+         font-size: 18px;
+      }
+
+
+
+
+
+
+
+
+
+
+      .second-half{
+       /*  border: 1px solid white;*/
+      }
+
+
+     .second-half img{
+                    width: 120%;
+                    display: block;
+                    
+                   margin: auto;
+    /* border: 1px solid white; */
+                   border-radius: 150px;
+
+                      }
+
+            
+
+
+
+
+
+
+     .main-box{
+     /* border: 4px solid white;*/
+         display: flex;
+         align-items: center;
+         color: white;
+         justify-content: center;
+         font-family: sans-serif;
+         max-width: 50%;
+         margin: auto;
+         height: 80%;
+              }
+              .buttons{
+                     /*  border: 1px solid white;*/
+                     
+                     width: 100%;
+              }
+
+                
+              .btn1{
+               cursor: pointer;
+               margin: 10px;
+                   font-size: 20px;
+                   padding: 8px 6px;
+                   font-family: sans-serif;
+                   border-radius: 8px;
+                   outline: none;
+                   color: #fff;
+                   background-color: #007bff;
+                   border-color: #007bff;
+              }
+                            .btn1:hover{
+                                background-color: royalblue;
+                               }
+              .btn2{
+                   font-size: 20px;
+                      padding: 8px 6px;
+                    font-family: sans-serif;
+                    border-radius: 8px;
+                    outline: none;
+                    color: #fff;
+                    background-color: #007bff;
+                     border-color: #007bff;
+                     cursor: pointer;
+              }
+                              .btn2:hover{
+                                background-color: royalblue;
+                               }
+     
+
+
+
+
+
+
+.sec1{
+  /* border:3px solid red;*/
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   max-width: 80%;
+   margin: auto;
+   height: 220px;
+}
+.secmid{
+flex-direction: row-reverse;
+max-width: 90%;
+}
+.parasmid{
+   margin-left: 70px;
+}
+.paras{
+  /* border: 2px solid red;*/
+   padding: 0px 65px;
+}
+.thumbnail{
+  /* border: 2px solid yellow;*/
+  width: 69%;
+}
+
+.imgfluid{
+      width: 150%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+}
+.section-tag{
+   /* font-size: 30px;*/
+   
+}
+.section-subtag{
+   /*  font-size: 16px;*/
+
+}
+.secmid{
+  /* flex-direction: row-reverse;*/
+}
+.img2fluid{
+  /* border-radius: 20px;*/
+}
+.img3fluid{
+  /* border-radius: 20px;*/
+}
+.paras2{
+   /*margin-left: 20px;*/
+}
+
+
+.contact{
+   margin-top: 30px;
+   height: 533px;
+   background-color: lavender;
+   max-width: 100%;
+   
+}
+.text-centre{
+   font-size: 40px;
+
+}
+.form{
+   
+   margin: 42px auto;
+   max-width: 500px;
+   text-align: center;
+}
+.input-group input{
+   width: 60%;
+   margin: 5px 5px;
+   padding: 5px 5px;
+
+}
+.submit{
+    font-size: 20px;
+         font-family: sans-serif;
+         border-radius: 5px;
+         outline: none;
+         
+         color: #fff;
+         background-color: #007bff;
+         border-color: #007bff;
+}
+.submit:hover{
+   background-color: royalblue;
+}
+ .berger{
+   display: none;
+          position: absolute;
+          top: 4%;
+          right: 45px;
+    }
+    .line{
+
+      color: black;
+      width: 27px;
+      height: 4px;
+      margin: 5px;
+      background-color: white;
+    }
+
+
+
+@media only screen and (max-width: 895px){
+    .navbar{
+      flex-direction: column;
+
+
+    }
+    .navlist{
+      flex-direction: column;
+      margin-left: 107px;
+
+    }
+    .logo img{
+      width: 10%;
+      margin-left: 45px;
+      margin-top: 15px;
+    }
+    .right-nav{
+      margin-left: 80px;
+     /* text-align: center;*/
+    }
+    .right-nav input{
+      width: 128%;
+     margin-left: 27px;
+
+    }
+    .right-nav button{
+      display: block;
+      margin-left: 64px;
+    }
+    .berger{
+      display: block;
+    }
+    .h-nav{
+      height: 72px;
+    }
+    .v-class{
+      opacity: 0;
+    }
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+	<title></title>
+
+</head>
+<body>             
+	          <!--open navbar div-->
+                 <nav class="back navbar h-nav" id="navbar">
+                 
+                 <ul class="navlist" id="navlist">
+                 	<div class="logo">
+                 		<img src="./images/logooo.jpg">
+                 	</div>
+                 
+
+
+             
+                 	
+                 		<li><a href="#">home</a></li>
+                 		<li><a href="#">about</a></li>
+                 		<li><a href="#">services</a></li>
+                 		<li><a href="#">contact</a></li>
+                 </ul>
+             <!--closed navlist div-->
+                 	    <!--open right-nav div-->
+                 	<div class="right-nav" id="rightnav">
+                 		<input type="search" name="search">
+                 		<button>search</button>
+                 		
+                 	</div>
+                  <div class="berger" id="berger">
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     <div class="line"></div>
+                     
+                  </div>
+                 		<!--closed right-nav div-->
+                 	
+               </nav>
+              <!--close navbar div-->
+
+
+
+
+
+              <!--home section-->
+              <section class="back firstsection">
+               <div class="main-box">
+                  <div class="firsthalf">
+                     <p class="text-big">the future of education is here</p>
+                     <p class="text-small">in this world of 7 billion  people we need all of them.this is the future of an educated world. the future  of education  is here.we proud to say that. 
+                    </p>
+                    <div class="buttons">
+                       <button class="btn1">subscribe now</button>
+                       <button class="btn2">watch videos</button>
+                    </div>
+                  </div>
+                  <div class="second-half"><img src="./images/edu1.jpg"></div>
+               </div>
+                 
+              </section>
+
+
+
+
+
+
+
+
+
+             
+              <section class="sec1">
+               <div class="paras">
+               <p class="section-tag text-big"> the end of search  is here</p>
+               <p class="section-subtag text-small">Education can be characterized from the teacher's or the student's perspective. Teacher-centered definitions focus on the perspective and role of the teacher, for  are also possible. This can take the form of describing the process as the shared experience of a common world that involves discovery as well as posing and solving problems..</p></div>
+               <div class="thumbnail">
+                  <img src="./images/edu4.jpg" alt="" class="imgfluid">
+               </div>
+              </section>
+               <section class="sec1 secmid">
+               <div class="paras parasmid">
+               <p class="section-tag text-big"> lets grow togeather</p>
+               <p class="section-subtag text-small">Education designed to support early development in preparation for participation in school and society. The programmes are designed for children below the age of three. This is ISCED level 01.[56] Preschools provide education from ages approximately three to seven, depending on the country when children enter primary education. The children now readily interact with their peers and the educator..</p></div>
+               <div class="thumbnail">
+                  <img src="./images/edu3.jpg" alt="" class="imgfluid">
+               </div>
+              </section>
+               <section class="sec1">
+               <div class="paras">
+               <p class="section-tag text-big"> transforming education in india</p>
+               <p class="section-subtag text-small">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+               <div class="thumbnail">
+                  <img src="./images/edu5.jpg" alt="" class="imgfluid">
+               </div>
+              </section>
+              <!--<section class="secRight secmid">
+               <div class="paras2">
+               <p class="section-tag"> the end of search engine is here</p>
+               <p class="section-subtag">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+               <div class="thumbnail">
+                  <img src="edu4.jpg" alt="" class="img2fluid">
+               </div>
+              </section>
+              <section class="secRight">
+               <div class="paras">
+               <p class="section-tag"> the end of search engine is here</p>
+               <p class="section-subtag">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+               <div class="thumbnail">
+                  <img src="edu5.jpg" alt="" class="img3fluid">
+               </div>
+              </section> -->
+
+<div class="contact">
+   <form class="form">
+   <h3 class="text-centre">contact form</h3><br>
+   <div class="input-group">
+      <input type="name" name="name" placeholder="enter your name"><br>
+      <input type="email" name="email" placeholder="entre your email"><br>
+      <input type="password" name="password" placeholder="emter your password"><br>
+      <input type="password" name="password" placeholder="enter yoyr confirm password"><br>
+      <button class="submit" onclick="printPage()">submit</button>
+   </div>
+   </form>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+     var bergur= document.querySelector('.berger');
+     var navbar= document.querySelector('.navbar');
+     var navlist= document.querySelector('.navlist');
+     var rightnav= document.querySelector('.right-nav');
+   //  var hnav = document.querySelector(.'h-nav');
+
+bergur.addEventListener("click",change)
+        function change(){
+         if ( navlist.style.opacity != "0") {
+             
+              navlist.style.opacity = "0";
+              rightnav.style.opacity = "0";
+
+
+         }else{
+            navlist.style.opacity = "1";
+            rightnav.style.opacity = "1";
+         }
+       
+
+        }
+
+
+     //   berger.addEventListener('click',()=>{
+       //   navbar.classList.toggle('h-nav');
+         // navlist.classList.toggle('v-class');
+         // rightnav.classList.toggle('v-class');
+          // berger.classList.toggle('berger');
+   // })
+
+     
+      
+
+
+
+  //  var ber= document.getElementById('ber');
+  // var nav= document.getElementById('nav');
+
+//ber.addEventListener("click",color)
+
+  // function color(){
+      
+   //           nav.style.opacity = "0";
+     
+   
+   
+   
+ // }
+   
+  // var nav = document.getElementById('nav');
+
+// nav.addEventListener("click",()=>);
+ //    nav.style.backgroundColor = "red";
+ 
+function printPage(){
+
+    window.print();
+}
+ 
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
